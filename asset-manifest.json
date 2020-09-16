@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/game-review-api/static/css/main.2d71a920.chunk.css",
+    "main.js": "/game-review-api/static/js/main.ba066ad9.chunk.js",
+    "main.js.map": "/game-review-api/static/js/main.ba066ad9.chunk.js.map",
+    "runtime-main.js": "/game-review-api/static/js/runtime-main.4e64b7a4.js",
+    "runtime-main.js.map": "/game-review-api/static/js/runtime-main.4e64b7a4.js.map",
+    "static/js/2.858969cf.chunk.js": "/game-review-api/static/js/2.858969cf.chunk.js",
+    "static/js/2.858969cf.chunk.js.map": "/game-review-api/static/js/2.858969cf.chunk.js.map",
+    "index.html": "/game-review-api/index.html",
+    "precache-manifest.4d1f6c0274d0be176464f135070ea0ca.js": "/game-review-api/precache-manifest.4d1f6c0274d0be176464f135070ea0ca.js",
+    "service-worker.js": "/game-review-api/service-worker.js",
+    "static/css/main.2d71a920.chunk.css.map": "/game-review-api/static/css/main.2d71a920.chunk.css.map",
+    "static/js/2.858969cf.chunk.js.LICENSE.txt": "/game-review-api/static/js/2.858969cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e64b7a4.js",
+    "static/js/2.858969cf.chunk.js",
+    "static/css/main.2d71a920.chunk.css",
+    "static/js/main.ba066ad9.chunk.js"
+  ]
+}
