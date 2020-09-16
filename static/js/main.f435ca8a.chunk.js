@@ -1,0 +1,2 @@
+(this["webpackJsonpgame-reviews-api"]=this["webpackJsonpgame-reviews-api"]||[]).push([[0],[,,,function(e,n){},function(e,n,t){e.exports=t(11)},,,,,function(e,n,t){},function(e,n,t){},function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a),c=t(2),i=t.n(c),o=(t(9),t(10),t(3)),u=t.n(o);var l=function(){return r.a.createElement("div",{className:"App"},r.a.createElement(u.a,null))};i.a.render(r.a.createElement(r.a.StrictMode,null,r.a.createElement(l,null)),document.getElementById("root"))}],[[4,1,2]]]);
+//# sourceMappingURL=main.f435ca8a.chunk.js.map
