@@ -1,0 +1,59 @@
+.navWrapper {
+  opacity: 0;
+  position: fixed;
+  top: 10%;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity .5s ease;
+}
+.nav {
+  position: relative;
+  width: 0;
+  height: 100%;
+  background: white;
+  border-right: 2px solid black;
+  z-index: 20;
+  transition: width .5s ease;
+}
+.active.navWrapper {
+  opacity: 1;
+}
+.active.nav {
+  width: 180px;
+}
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navList > li {
+  padding: 5% 0;
+  height: 10%;
+}
+.navList > li:hover {
+  background: #CDCDCD;
+}
+.navList > li:active {
+  background: grey
+}
+.navButton {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: rgba(0,0,0,0);
+  font-size: 20px;
+  transition: background .1s ease
+}
+
+@media (min-width: 768px) {
+  .navWrapper {
+    opacity: 1;
+    background: none;
+  }
+  .nav {
+    position: fixed;
+    width: 180px;
+  }
+}
