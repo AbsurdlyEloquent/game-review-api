@@ -16,11 +16,11 @@ class Nav extends React.Component {
       <aside className={`navWrapper ${this.props.navClass}`} onClick={this.navClicker} >
         <nav className={`nav ${this.props.navClass}`}>
           <ul className="navList">
-            <LiBtn className="navButton">Home</LiBtn>
-            <LiBtn className="navButton">Lorem</LiBtn>
-            <LiBtn className="navButton">Ipsum</LiBtn>
+            <LiBtn className={`navButton ${this.props.navClass}`}>Home</LiBtn>
+            <LiBtn className={`navButton ${this.props.navClass}`}>Lorem</LiBtn>
+            <LiBtn className={`navButton ${this.props.navClass}`}>Ipsum</LiBtn>
           </ul>
-          <Footer />
+          <Footer className={`navButton ${this.props.navClass}`} />
         </nav>
       </aside>
     )

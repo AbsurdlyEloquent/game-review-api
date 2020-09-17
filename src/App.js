@@ -8,9 +8,9 @@ class App extends React.Component {
     super(props)
 
     this.state = {
-      navActive: false,
-      burgerClass: '',
-      navClass: ''
+      navActive: true,
+      burgerClass: 'close',
+      navClass: 'active'
     }
     this.burgerHandler = this.burgerHandler.bind(this)
   }

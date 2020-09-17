@@ -1,6 +1,5 @@
 .navList > li {
   padding: 5% 0;
-  height: 10%;
   transition: background-color .15s ease;
 }
 .navList > li:hover {
@@ -15,5 +14,15 @@
   border: none;
   outline: none;
   background: rgba(0,0,0,0);
+  font-size: 0px;
+  transition: font-size .3s ease
+}
+.active.navButton {
   font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .navButton {
+    font-size: 20px;
+  }
 }
