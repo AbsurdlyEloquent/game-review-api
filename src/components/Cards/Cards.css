@@ -179,7 +179,6 @@
     cursor: pointer;
     display: none;
 }
-}
 
 .review-btn {
   color: white;
@@ -206,7 +205,6 @@
 
 input:checked+.box {
     height: auto;
-    margin: 16px 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 6px 12px rgba(0, 0, 0, .32);
