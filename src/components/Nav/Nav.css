@@ -11,7 +11,7 @@
   position: relative;
   width: 0;
   height: 100%;
-  background: white;
+  background: #F0B67F;
   border-right: 2px solid black;
   z-index: 20;
   transition: width .5s ease;
