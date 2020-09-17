@@ -17,13 +17,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header navActive={this.state.navActive} navClass={this.state.navClass} burgerClass={this.state.burgerClass}  burgerHandler={this.burgerHandler} />
-        <Nav navActive={this.state.navActive} navClass={this.state.navClass} />
+        <Header navActive={this.state.navActive} navClass={this.state.navClass} burgerClass={this.state.burgerClass} burgerHandler={this.burgerHandler} />
+        <Nav navActive={this.state.navActive} navClass={this.state.navClass} burgerHandler={this.burgerHandler} />
       </div>
     )
   }
   burgerHandler = function() {
-    console.log('running!!!!!!')
     let newState = this.state
     if (newState.navActive) {
       newState.navActive = false
@@ -34,7 +33,6 @@ class App extends React.Component {
       newState.burgerClass = 'close'
       newState.navClass = 'active'
     }
-    console.log(this.state)
     this.setState(newState)
   }
 }
