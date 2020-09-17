@@ -1,7 +1,7 @@
 .navWrapper {
   opacity: 0;
   position: fixed;
-  top: 5%;
+  top: 10%;
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
@@ -13,18 +13,19 @@
   height: 100%;
   background: white;
   border-right: 2px solid black;
-  border-top: 2px solid black;
+  z-index: 20;
   transition: width .5s ease;
 }
 .active.navWrapper {
   opacity: 1;
 }
 .active.nav {
-  width: 50%;
+  width: 180px;
 }
 .navList {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 .navList > li {
   padding: 5% 0;
@@ -44,4 +45,15 @@
   background: rgba(0,0,0,0);
   font-size: 20px;
   transition: background .1s ease
+}
+
+@media (min-width: 768px) {
+  .navWrapper {
+    opacity: 1;
+    background: none;
+  }
+  .nav {
+    position: fixed;
+    width: 180px;
+  }
 }

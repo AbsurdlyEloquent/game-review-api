@@ -2,6 +2,7 @@
   display: flex;
   position: fixed;
   padding: 0 5%;
+  height: 10%;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -13,64 +14,67 @@
 }
 
 .hamburger_wrapper {
-        padding: 5px;
-        z-index: 10;
-      }
+  padding: 5px;
+  z-index: 10;
+}
 
-      #hamburger {
-        width: 30px;
-        height: 25px;
-        position: relative;
-        cursor: pointer;
-        outline: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
+#hamburger {
+  width: 30px;
+  height: 25px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-      #hamburger span {
-        display: block;
-        height: 5px;
-        width: 100%;
-        background:black;
-        border-radius: 9px;
-        opacity: 1;
-        left: 0;
-        transform: rotate(0deg);
-        transition: .5s ease-in-out;
-      }
+#hamburger span {
+  display: block;
+  height: 5px;
+  width: 100%;
+  background:black;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .5s ease-in-out;
+}
 
-      #hamburger span:nth-child(1) {
-        top: 0px;
-        transform-origin: left center;
-      }
+#hamburger span:nth-child(1) {
+  top: 0px;
+  transform-origin: left center;
+}
 
-      #hamburger span:nth-child(2) {
-        top: 21px;
-        transform-origin: left center;
-      }
+#hamburger span:nth-child(2) {
+  top: 21px;
+  transform-origin: left center;
+}
 
-      #hamburger span:nth-child(3) {
-        top: 42px;
-        transform-origin: left center;
-      }
+#hamburger span:nth-child(3) {
+  top: 42px;
+  transform-origin: left center;
+}
 
-      #hamburger.close span:nth-child(1) {
-        transform: rotate(45deg);
-      }
+#hamburger.close span:nth-child(1) {
+  transform: rotate(45deg);
+}
 
-      #hamburger.close span:nth-child(2) {
-        width: 0%;
-        opacity: 0;
-        transition: .1s;
-      }
+#hamburger.close span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+  transition: .1s;
+}
 
-      #hamburger.close span:nth-child(3) {
-        transform: rotate(-45deg);
-      }
-
-      .nav-list {
-        padding: 10px;
-        list-style-type: none;
-        font-size: 2em;
-      }
+#hamburger.close span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+/* ^^^taken from https://amp.dev/documentation/examples/multimedia-animations/animated_hamburger_menu/ */
+@media (min-width: 768px) {
+  .hamburger_wrapper, #hamburger {
+    display: none;
+  }
+  .title {
+    display: block;
+  }
+}
