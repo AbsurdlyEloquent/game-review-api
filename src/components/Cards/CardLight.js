@@ -1,6 +1,12 @@
 import React from "react"
 import "../Cards/Cards.css"
 
+import Mac from '../Tags/Mac'
+import PC from '../Tags/PC'
+import MMORPG from '../Tags/MMORPG'
+import Action from '../Tags/Action'
+import Adventure from '../Tags/Adventure'
+
 export default function CardLight() {
     return (
         <div className="card-light">
