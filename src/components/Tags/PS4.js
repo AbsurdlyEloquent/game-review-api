@@ -1,5 +1,5 @@
 import React from "react"
-import "./tags.css"
+import "./Tags.css"
 
 export default function PS4Tag() {
     return (

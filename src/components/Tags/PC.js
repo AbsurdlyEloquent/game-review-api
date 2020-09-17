@@ -1,8 +1,8 @@
 import React from "react"
-import "./tags.css"
+import "./Tags.css"
 
 export default function PCTag() {
     return (
-        <p className="pc-tag" > PC </p>
+        <p className="tags" > PC </p>
     )
 }

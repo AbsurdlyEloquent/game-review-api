@@ -1,18 +1,22 @@
 import React from "react"
 import "../Cards/Cards.css"
 import Mac from "../Tags/Mac"
+import Action from "../Tags/Action"
+import MMORPG from "../Tags/MMORPG"
+import PC from "../Tags/PC"
+import Adventure from "../Tags/Adventure"
 
 export default function CardLight() {
     return (
         <div className="card-light">
             <div className="card-title"><h2>Final Fantasy VI</h2></div>
             <div className="card-body">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/51Ro%2BgfSjbL._AC_SX385_.jpg" alt="" />
+                <img className="card-img" src="https://images-na.ssl-images-amazon.com/images/I/51Ro%2BgfSjbL._AC_SX385_.jpg" alt="" />
                 <div className="card-body-ul">
-                    <ul>
-                        <li className="li-tags">Platform: </li>
-                        <li className="li-tags">Genre: </li>
-                        <li className="li-tags">Tags: </li>
+                    <ul className="card-ul">
+                        <li className="li-tags">Platform:&nbsp;<Mac />&nbsp;<PC /></li>
+                        <li className="li-tags">Genre:&nbsp;<MMORPG /></li>
+                        <li className="li-tags">Tags:&nbsp;<Action />&nbsp;<Adventure /></li>
                     </ul>
                 </div>
             </div>

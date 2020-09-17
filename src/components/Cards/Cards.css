@@ -6,21 +6,22 @@
     display: flex;
     flex-direction: column;
     box-shadow: 3px 3px 5px 6px #ccc;
-    max-width: 1000px;
+    max-width: 800px;
     border-radius: 10px;
-    color: white;
+    color: black;
     font-family: 'Kumbh Sans', sans-serif;
 }
 
 .card-title {
     border-bottom: 1px solid grey;
+    color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: #FE5F55;
     padding-left: 20px;
 }
 
-img {
+.card-img {
     padding: 20px;
     padding-left: 40px;
     width: 192px;
@@ -30,6 +31,7 @@ img {
 .card-body {
     display: flex;
     align-items: center;
+    background-color: white;
     color: black;
     box-shadow:
         inset 0px 11px 10px -10px #CCC,
@@ -40,22 +42,15 @@ img {
     width: 100%;
 }
 
-h3 {
-    width: 100%;
-}
-
-ul {
+.card-ul {
     list-style-type: none;
-}
-
-li {
-    margin: 50px 0;
 }
 
 .li-tags {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 10px 0;
 }
 
 .card-footer button {
@@ -66,6 +61,7 @@ li {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #FE5F55;
+    color: white;
     padding-right: 40px;
 }
 

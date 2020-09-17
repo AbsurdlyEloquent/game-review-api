@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import CardLight from './components/Cards/CardLight';
 import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
 
@@ -19,10 +20,11 @@ class App extends React.Component {
       <div className="App">
         <Header navActive={this.state.navActive} navClass={this.state.navClass} burgerClass={this.state.burgerClass} burgerHandler={this.burgerHandler} />
         <Nav navActive={this.state.navActive} navClass={this.state.navClass} burgerHandler={this.burgerHandler} />
-      </div>
+        <CardLight />
+      </div >
     )
   }
-  burgerHandler = function() {
+  burgerHandler = function () {
     let newState = this.state
     if (newState.navActive) {
       newState.navActive = false
