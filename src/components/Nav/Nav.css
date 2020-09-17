@@ -6,7 +6,6 @@
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   transition: opacity .5s ease;
-  z-index: -10;
 }
 
 .nav {
@@ -24,7 +23,7 @@
 
 .active.navWrapper {
   opacity: 1;
-  z-index: 10
+  z-index: 20
 }
 
 .active.nav {
