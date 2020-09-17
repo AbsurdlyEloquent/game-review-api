@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/game-review-api/static/css/main.db32eb9e.chunk.css",
-    "main.js": "/game-review-api/static/js/main.6053ae6e.chunk.js",
-    "main.js.map": "/game-review-api/static/js/main.6053ae6e.chunk.js.map",
+    "main.css": "/game-review-api/static/css/main.081da650.chunk.css",
+    "main.js": "/game-review-api/static/js/main.e662e63f.chunk.js",
+    "main.js.map": "/game-review-api/static/js/main.e662e63f.chunk.js.map",
     "runtime-main.js": "/game-review-api/static/js/runtime-main.4e64b7a4.js",
     "runtime-main.js.map": "/game-review-api/static/js/runtime-main.4e64b7a4.js.map",
-    "static/js/2.709c17db.chunk.js": "/game-review-api/static/js/2.709c17db.chunk.js",
-    "static/js/2.709c17db.chunk.js.map": "/game-review-api/static/js/2.709c17db.chunk.js.map",
+    "static/js/2.51fd0009.chunk.js": "/game-review-api/static/js/2.51fd0009.chunk.js",
+    "static/js/2.51fd0009.chunk.js.map": "/game-review-api/static/js/2.51fd0009.chunk.js.map",
     "index.html": "/game-review-api/index.html",
-    "precache-manifest.d0e9820317e59240c6fbe6f9be740367.js": "/game-review-api/precache-manifest.d0e9820317e59240c6fbe6f9be740367.js",
+    "precache-manifest.0dad03c29d3655a565505f82c1e5f12b.js": "/game-review-api/precache-manifest.0dad03c29d3655a565505f82c1e5f12b.js",
     "service-worker.js": "/game-review-api/service-worker.js",
-    "static/css/main.db32eb9e.chunk.css.map": "/game-review-api/static/css/main.db32eb9e.chunk.css.map",
-    "static/js/2.709c17db.chunk.js.LICENSE.txt": "/game-review-api/static/js/2.709c17db.chunk.js.LICENSE.txt",
+    "static/css/main.081da650.chunk.css.map": "/game-review-api/static/css/main.081da650.chunk.css.map",
+    "static/js/2.51fd0009.chunk.js.LICENSE.txt": "/game-review-api/static/js/2.51fd0009.chunk.js.LICENSE.txt",
     "static/media/coffee.png": "/game-review-api/static/media/coffee.2ddd220a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4e64b7a4.js",
-    "static/js/2.709c17db.chunk.js",
-    "static/css/main.db32eb9e.chunk.css",
-    "static/js/main.6053ae6e.chunk.js"
+    "static/js/2.51fd0009.chunk.js",
+    "static/css/main.081da650.chunk.css",
+    "static/js/main.e662e63f.chunk.js"
   ]
 }
