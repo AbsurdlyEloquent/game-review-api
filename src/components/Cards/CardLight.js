@@ -14,17 +14,33 @@ export default function CardLight() {
                 <img className="card-img" src="https://images-na.ssl-images-amazon.com/images/I/51Ro%2BgfSjbL._AC_SX385_.jpg" alt="" />
                 <div className="card-body-ul">
                     <ul className="card-ul">
-                        <li className="li-tags">Platform:&nbsp;<Mac />&nbsp;<PC /></li>
+                        <li className="li-tags">PlatForm:&nbsp;<Mac />&nbsp;<PC /></li>
                         <li className="li-tags">Genre:&nbsp;<MMORPG /></li>
                         <li className="li-tags">Tags:&nbsp;<Action />&nbsp;<Adventure /></li>
                     </ul>
                 </div>
             </div>
-            <div className="card-footer">
-                <button className="collapsible"><h4>Read More</h4>
-                    <i className="fas fa-angle-double-down">
-                    </i>
-                </button>
+            <div className="card-Footer accordion arrows">
+                <div className="accordion arrows">
+                    <input type="radio" name="accordion" id="cb1" />
+                    <section className="box">
+                        <label className="box-title" htmlFor="cb1">Read More</label>
+                        <label className="box-close" htmlFor="acc-close"></label>
+                        <div className="box-content">
+                            <div className="content-box">
+                                <h2 className="h2-title">Review By User</h2>
+                                <ul>
+                                    <li>Overall: Epic!</li>
+                                    <li>Difficulty: Epic!</li>
+                                    <li>Graphics: It was the 2000s...</li>
+                                    <li>Gameplay: Epic!</li>
+                                    <li>Replayability: Hell yea!</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <input type="radio" name="accordion" id="acc-close" />
+                </div>
             </div>
         </div>
     )

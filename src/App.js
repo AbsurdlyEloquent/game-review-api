@@ -18,8 +18,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header navActive={this.state.navActive} navClass={this.state.navClass} burgerClass={this.state.burgerClass} burgerHandler={this.burgerHandler} />
-        <Nav navActive={this.state.navActive} navClass={this.state.navClass} burgerHandler={this.burgerHandler} />
+        {/* <Header navActive={this.state.navActive} navClass={this.state.navClass} burgerClass={this.state.burgerClass} burgerHandler={this.burgerHandler} />
+        <Nav navActive={this.state.navActive} navClass={this.state.navClass} burgerHandler={this.burgerHandler} /> */}
         <CardLight />
       </div >
     )
