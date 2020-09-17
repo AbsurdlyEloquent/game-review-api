@@ -1,0 +1,10 @@
+.mac-tag {
+    color: black;
+    border: rgba(100, 148, 237, 0.639);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    width: 35px;
+    background-color: rgba(100, 148, 237, 0.639);
+}
