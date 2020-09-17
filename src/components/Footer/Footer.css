@@ -8,7 +8,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  color: black;
   font-size: 0px;
   white-space: nowrap;
   transition: font-size .3s ease;

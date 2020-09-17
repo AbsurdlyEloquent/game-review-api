@@ -11,6 +11,7 @@
     font-family: 'Kumbh Sans', sans-serif;
     background: white;
     width: 75%;
+    z-index: 10;
 }
 
 .card-title {
