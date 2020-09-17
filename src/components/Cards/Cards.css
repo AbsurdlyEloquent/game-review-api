@@ -9,12 +9,14 @@
     max-width: 800px;
     border-radius: 10px;
     font-family: 'Kumbh Sans', sans-serif;
-    z-index: -10;
     background: white;
     width: 75%;
 }
 
 .card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid grey;
     color: white;
     border-top-left-radius: 10px;
@@ -80,6 +82,22 @@
     outline: none;
 }
 
+.review-btn {
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  margin-right: 3%;
+  height: 40px;
+  border-radius: 15%;
+}
+.review-btn:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,.3)
+}
+.review-btn:active {
+  background-color: rgba(0,0,0,.5)
+}
 @media (min-width: 768px) {
   .card-body {
     flex-direction: row;
