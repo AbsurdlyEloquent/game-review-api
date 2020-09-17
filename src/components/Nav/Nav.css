@@ -27,25 +27,6 @@
   padding: 0;
   margin: 0;
 }
-.navList > li {
-  padding: 5% 0;
-  height: 10%;
-}
-.navList > li:hover {
-  background: #CDCDCD;
-}
-.navList > li:active {
-  background: grey
-}
-.navButton {
-  width: 100%;
-  height: 100%;
-  border: none;
-  outline: none;
-  background: rgba(0,0,0,0);
-  font-size: 20px;
-  transition: background .1s ease
-}
 
 @media (min-width: 768px) {
   .navWrapper {
