@@ -1,8 +1,8 @@
 import React from "react"
-import "./tags.css"
+import "./Tags.css"
 
 export default function MacTag() {
     return (
-        <p className="mac-tag">Mac</p>
+        <p className="tags">Mac</p>
     )
 }

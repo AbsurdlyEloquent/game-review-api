@@ -6,24 +6,25 @@
     display: flex;
     flex-direction: column;
     box-shadow: 3px 3px 5px 6px #ccc;
+    max-width: 800px;
     border-radius: 10px;
-    color: white;
+    color: black;
     font-family: 'Kumbh Sans', sans-serif;
     z-index: -10;
     background: white;
     width: 75%;
-    max-width: 1000px;
 }
 
 .card-title {
     border-bottom: 1px solid grey;
+    color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: #FE5F55;
     padding-left: 20px;
 }
 
-.cover {
+.card-img {
     padding: 20px;
     padding-left: 40px;
     width: 192px;
@@ -34,6 +35,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    color: black;
     box-shadow:
         inset 0px 11px 10px -10px #CCC,
         inset 0px -11px 10px -10px #CCC;
@@ -43,7 +46,7 @@
     width: 100%;
 }
 
-.tag-list {
+.card-ul {
     list-style-type: none;
 }
 
@@ -52,7 +55,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: black;
+    margin: 10px 0;
 }
 
 .card-footer button {
@@ -63,6 +66,7 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #FE5F55;
+    color: white;
     padding-right: 40px;
 }
 

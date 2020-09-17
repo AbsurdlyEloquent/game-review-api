@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import CardLight from './components/Cards/CardLight';
 import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
 import Main from './components/Main/Main'
@@ -24,7 +25,7 @@ class App extends React.Component {
       </div>
     )
   }
-  burgerHandler = function() {
+  burgerHandler = function () {
     let newState = this.state
     if (newState.navActive) {
       newState.navActive = false

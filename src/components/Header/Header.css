@@ -2,6 +2,7 @@
   display: flex;
   position: fixed;
   padding: 0 5%;
+  color: white;
   height: 10%;
   width: 100%;
   justify-content: space-between;
@@ -17,9 +18,12 @@
 
 
 @media (min-width: 768px) {
-  .hamburger_wrapper, #hamburger {
+
+  .hamburger_wrapper,
+  #hamburger {
     display: none;
   }
+
   .title {
     display: block;
   }

@@ -8,6 +8,7 @@
   transition: opacity .5s ease;
   z-index: 10;
 }
+
 .nav {
   display: flex;
   flex-direction: column;
@@ -15,21 +16,28 @@
   position: relative;
   width: 0;
   height: 100%;
-  background: #F0B67F;
-  border-right: 2px solid rgb(123,123,123);
+  background-color: #F0B67F;
+  border-right: 1px solid rgb(123, 123, 123);
   z-index: 20;
   transition: width .5s ease;
 }
+
 .active.navWrapper {
   opacity: 1;
 }
+
 .active.nav {
   width: 180px;
 }
+
 .navList {
   list-style: none;
   padding: 0;
   margin: 110px 0 0 0;
+}
+
+.navButton {
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -37,6 +45,7 @@
     opacity: 1;
     background: none;
   }
+
   .nav {
     position: fixed;
     width: 180px;
