@@ -1,4 +1,7 @@
 import React from 'react'
+
+import LiBtn from '../LiBtn/LiBtn'
+
 import './Nav.css'
 
 class Nav extends React.Component {
@@ -12,9 +15,9 @@ class Nav extends React.Component {
       <aside className={`navWrapper ${this.props.navClass}`} onClick={this.navClicker} >
         <nav className={`nav ${this.props.navClass}`}>
           <ul className="navList">
-            <li><button className="navButton">Home</button></li>
-            <li><button className="navButton">Lorem</button></li>
-            <li><button className="navButton">Ipsum</button></li>
+            <LiBtn className="navButton">Home</LiBtn>
+            <LiBtn className="navButton">Lorem</LiBtn>
+            <LiBtn className="navButton">Ipsum</LiBtn>
           </ul>
         </nav>
       </aside>
