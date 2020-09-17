@@ -1,6 +1,7 @@
 import React from 'react'
 
 import LiBtn from '../LiBtn/LiBtn'
+import Footer from '../Footer/Footer'
 
 import './Nav.css'
 
@@ -19,6 +20,7 @@ class Nav extends React.Component {
             <LiBtn className="navButton">Lorem</LiBtn>
             <LiBtn className="navButton">Ipsum</LiBtn>
           </ul>
+          <Footer />
         </nav>
       </aside>
     )

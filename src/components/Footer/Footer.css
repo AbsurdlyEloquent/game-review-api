@@ -1,0 +1,13 @@
+.footer {
+  position: relative;
+}
+.footer > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.coffee {
+  height: 32px;
+  width: 32px;
+  margin: 0 3px;
+}
