@@ -91,6 +91,7 @@
   margin-right: 3%;
   height: 40px;
   border-radius: 15%;
+  transition: background-color .15s ease
 }
 .review-btn:hover {
   cursor: pointer;
