@@ -20,7 +20,7 @@
     padding-left: 20px;
 }
 
-img {
+.cover {
     padding: 20px;
     padding-left: 40px;
     width: 192px;
@@ -40,19 +40,12 @@ img {
     width: 100%;
 }
 
-h3 {
-    width: 100%;
-}
-
-ul {
+.tag-list {
     list-style-type: none;
 }
 
-li {
-    margin: 50px 0;
-}
-
 .li-tags {
+    margin: 50px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
