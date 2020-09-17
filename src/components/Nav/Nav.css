@@ -15,8 +15,7 @@
   position: relative;
   width: 0;
   height: 100%;
-  background: #F0B67F;
-  /* background: rgb(87, 86, 86); */
+  background-color: #F0B67F;
   border-right: 1px solid rgb(123, 123, 123);
   z-index: 20;
   transition: width .5s ease;
@@ -34,6 +33,10 @@
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.navButton {
+  color: white;
 }
 
 @media (min-width: 768px) {
