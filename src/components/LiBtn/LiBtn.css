@@ -1,12 +1,13 @@
 .navList > li {
   padding: 5% 0;
   height: 10%;
+  transition: background-color .15s ease;
 }
 .navList > li:hover {
-  background: #CDCDCD;
+  background: rgba(0,0,0,.3);
 }
 .navList > li:active {
-  background: grey
+  background: rgba(0,0,0,.5)
 }
 .navButton {
   width: 100%;
@@ -15,5 +16,4 @@
   outline: none;
   background: rgba(0,0,0,0);
   font-size: 20px;
-  transition: background .1s ease
 }
