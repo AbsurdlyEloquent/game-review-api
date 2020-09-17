@@ -4,6 +4,7 @@
   margin-bottom: 100%;
 }
 .footer > h3 {
+  color: black;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -35,11 +36,11 @@
   font-size: 17px;
 }
 .footer > ul > li > a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .footer > ul > li > a:hover {
-  border-bottom: 2px solid black
+  border-bottom: 2px solid white
 }
 @media (min-width: 768px) {
   .footer > h3 {

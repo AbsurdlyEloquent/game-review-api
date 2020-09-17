@@ -3,11 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding-top: 89px;
-}
-.card-light {
-  width: 75%;
-  max-width: 500px;
+  padding-top: 120px;
 }
 
 @media (min-width: 768px) {

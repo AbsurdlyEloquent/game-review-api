@@ -8,7 +8,6 @@ class Main extends React.Component {
   render() {
     return (
       <main className="main">
-        <div className="placeholder"></div>
         <CardLight />
       </main>
     )
