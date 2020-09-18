@@ -19,11 +19,7 @@ class AddGameModal extends React.Component {
                     <div className='modal-header'>&times;</div>
                     <div className='modal-body'>
                         <form>
-                            <Input type='text' index={`${this.props.index}`} />
-                            <Input type='text' index={`${this.props.index}`} />
-                            <Input type='text' index={`${this.props.index}`} />
-                            <Input type='text' index={`${this.props.index}`} />
-                            <Input type='text' index={`${this.props.index}`} />
+                            
                         </form>
                     </div>
                     <div className='modal-footer'><input onClick={this.submitHandler} type='submit' /></div>

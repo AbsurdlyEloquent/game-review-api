@@ -20,6 +20,7 @@ export default class addGameButton extends React.Component {
         )
     }
     gameHandler(e) {
+      console.log(e.target)
         if (e.target.className === 'add-game-btn') {
             this.setState({ modalActive: 'active' })
         } else if (e.target.className === 'modal-wrapper active' || e.target.className === "modal-header") {

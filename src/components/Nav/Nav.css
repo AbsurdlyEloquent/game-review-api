@@ -47,10 +47,12 @@
   .navWrapper {
     opacity: 1;
     background: none;
+    visibility: hidden;
   }
 
   .nav {
     position: fixed;
     width: 180px;
+    visibility: visible;
   }
 }
