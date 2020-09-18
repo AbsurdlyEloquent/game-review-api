@@ -10,11 +10,11 @@ class ReviewModal extends React.Component {
           <div className='modal-header'></div>
           <div className='modal-body'>
             <form>
-              <Input type='overall' />
-              <Input type='difficulty' />
-              <Input type='gameplay' />
-              <Input type='graphics' />
-              <Input type='replayability' />
+              <Input type='Overall' />
+              <Input type='Difficulty' />
+              <Input type='Gameplay' />
+              <Input type='Graphics' />
+              <Input type='Replayability' />
             </form>
           </div>
           <div className='modal-footer'></div>

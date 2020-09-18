@@ -20,7 +20,6 @@ export default class ReviewButton extends React.Component {
     )
   }
   reviewHandler(e) {
-    console.log(e.target)
     if (e.target.className === 'review-btn') {
       this.setState({ modalActive:'active' })
     } else if (e.target.className === 'modal-wrapper active') {
