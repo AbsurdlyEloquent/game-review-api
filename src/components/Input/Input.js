@@ -32,6 +32,5 @@ export default class Input extends React.Component {
     let newState = this.state
     newState.ratings[`${e.target.name.toLowerCase()}`] = e.target.value
     this.setState(newState)
-    console.log(newState)
   }
 }
