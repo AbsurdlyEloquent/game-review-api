@@ -1,6 +1,5 @@
 import React from 'react'
 import './Modal.css'
-import Input from '../Input/Input'
 const axios = require('axios')
 
 class AddGameModal extends React.Component {
@@ -18,12 +17,14 @@ class AddGameModal extends React.Component {
                 <div className='modal'>
                     <div className='modal-header'>&times;</div>
                     <div className='modal-body'>
-                        <form>
-                            <Input type='text' index={`${this.props.index}`} />
-                            <Input type='text' index={`${this.props.index}`} />
-                            <Input type='text' index={`${this.props.index}`} />
-                            <Input type='text' index={`${this.props.index}`} />
-                            <Input type='text' index={`${this.props.index}`} />
+                        <form className="addGame-modal">
+                            Name:<input type="text" name="name" id="name" />
+                            Image URL:<input type="url" name="imageURL" id="imageURL" />
+                            Plateforms:<input type="text" name="platforms" id="platforms" />
+                            Genre:<input type="text" name="genre" id="genre" />
+                            Tags:<input type="text" name="tags" id="tags" />
+                            Maxplayer:<input type="text" name="maxplayers" id="maxplayers" />
+                            Modable:<input type="checkbox" name="modable" id="modable" />
                         </form>
                     </div>
                     <div className='modal-footer'><input onClick={this.submitHandler} type='submit' /></div>
