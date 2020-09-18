@@ -26,7 +26,7 @@ class ReviewModal extends React.Component {
               <Input ratings={this.state.ratings} type='Replayability' index={`${this.props.index}-r`} />
             </form>
           </div>
-          <div className='modal-footer'><input onClick={this.submitHandler} type='submit'/></div>
+          <div className='modal-footer'><input onClick={this.submitHandler} type='submit' /></div>
         </div>
       </div>
     )
@@ -35,7 +35,7 @@ class ReviewModal extends React.Component {
     let ratings = this.state.ratings
     try {
       let newReview = await axios.post('https://zr-review-api.herokuapp.com/reviews', ratings)
-      axios.put(`https://zr-review-api.herokuapp.com/games/${this.props.game._id}`, {"$push": { "reviews": newReview.data._id}})
+      axios.put(`https://zr-review-api.herokuapp.com/games/${this.props.game._id}`, { "$push": { "reviews": newReview.data._id } })
       this.setState({ ratings: {} })
     }
     catch (err) {

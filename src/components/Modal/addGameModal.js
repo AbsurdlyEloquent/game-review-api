@@ -32,7 +32,7 @@ class AddGameModal extends React.Component {
         )
     }
     async submitHandler() {
-        let games = this.state.ratings
+        let games = this.state.games
         try {
             let newGame = await axios.post('https://zr-review-api.herokuapp.com/games', games)
             console.log(newGame)
