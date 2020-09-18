@@ -11,6 +11,7 @@ export default function Review(props) {
           <li>Graphics: {props.graphics}</li>
           <li>Gameplay: {props.gameplay}</li>
           <li>Replayability: {props.replayability}</li>
+          <li>Comments: {props.comments}</li>
         </ul>
       </div>
     </div>
