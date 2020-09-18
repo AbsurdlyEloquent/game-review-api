@@ -1,13 +1,13 @@
 .footer {
   position: relative;
-  height: 30%;
+  height: auto;
+  margin-bottom: 100%;
 }
-
-.footer>h3 {
+.footer > h3 {
+  color: black;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  color: black;
   font-size: 0px;
   white-space: nowrap;
   transition: font-size .3s ease;
@@ -40,14 +40,12 @@
 .footer.active>ul {
   font-size: 17px;
 }
-
-.footer>ul>li>a {
+.footer > ul > li > a {
   color: white;
   text-decoration: none;
 }
-
-.footer>ul>li>a:hover {
-  border-bottom: 2px solid black
+.footer > ul > li > a:hover {
+  border-bottom: 2px solid white
 }
 
 @media (min-width: 768px) {

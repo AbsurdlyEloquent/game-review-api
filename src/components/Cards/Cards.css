@@ -8,14 +8,18 @@
     box-shadow: 3px 3px 5px 6px rgba(53, 53, 53, 0.221);
     max-width: 800px;
     border-radius: 10px;
-    color: black;
     font-family: 'Kumbh Sans', sans-serif;
+    background: white;
+    width: 75%;
+    z-index: 10;
+    margin: 10px 0;
 }
 
 .card-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid grey;
     color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -33,6 +37,8 @@
 
 .card-body {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
     height: 100%;
     color: black;
@@ -52,6 +58,8 @@
 }
 
 .li-tags {
+    color: black;
+    margin: 50px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -95,6 +103,7 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: all .15s ease-in-out;
+    overflow: hidden;
 }
 
 .box::before {
@@ -166,16 +175,40 @@
     padding: 10px;
 }
 
+.content-box > ul > li {
+  color: black;
+}
+
 .box-close {
     position: absolute;
     height: 64px;
     width: 100%;
+    border: none;
+    outline: none;
     top: 0;
     left: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     cursor: pointer;
     display: none;
+}
+
+.review-btn {
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  margin-right: 3%;
+  height: 40px;
+  border-radius: 15%;
+  transition: background-color .15s ease
+}
+.review-btn:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,.3)
+}
+.review-btn:active {
+  background-color: rgba(0,0,0,.5)
 }
 
 input:checked+.box {
@@ -227,6 +260,7 @@ input:checked+section.box .box-title:before {
 .h2-title {
     border-bottom: 1px solid #FE5F55;
     padding: 10px;
+    color: black;
 }
 
 .btn-review {
@@ -244,9 +278,26 @@ input:checked+section.box .box-title:before {
     justify-content: flex-end;
     padding: 10px;
 }
-
 .stars {
     display: flex;
     justify-content: flex-end;
     color: gold;
+}
+
+.noArray {
+  color: white;
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .card-body {
+    flex-direction: row;
+  }
+  .btn {
+    height: 225px;
+  }
+}
+
+@media (min-width: 888px) {
+
 }
