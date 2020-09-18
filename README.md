@@ -11,6 +11,7 @@ You can find the deployed site on Github Pages [here](https://absurdlyeloquent.g
 - [Game Review Api](#zerg-rush-game-reviews)
   - [Technologies Used](#technologies-used)
   - [Dependencies](#dependencies)
+  - [Site Layout](#site-layout)
 
 
 ## Technologies Used
