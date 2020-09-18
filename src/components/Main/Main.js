@@ -1,5 +1,5 @@
 import React from 'react'
-
+import AddGameButton from '../Buttons/AddGameButton'
 import CardLight from '../Cards/CardLight'
 
 import './Main.css'
@@ -11,9 +11,10 @@ class Main extends React.Component {
     } else {
       return (
         <main className="main">
+          <AddGameButton game={this.props.game} index={this.props.index} />
           { /* JS */
             // loops through the games, making a Card for each one
-            this.props.games.map((item, i)=> {
+            this.props.games.map((item, i) => {
               return <CardLight key={i} index={i} game={item} />
             })
           }

@@ -12,7 +12,7 @@ class Nav extends React.Component {
     this.navClicker = this.navClicker.bind(this)
   }
   render() {
-    return(
+    return (
       <aside className={`navWrapper ${this.props.navClass}`} onClick={this.navClicker} >
         <nav className={`nav ${this.props.navClass}`}>
           <ul className="navList">
