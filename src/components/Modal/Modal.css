@@ -26,6 +26,7 @@
   font-size: 35px;
   font-weight: bold;
   background: #FE5F55;
+  color: white;
 }
 .form {
  display: flex;
@@ -57,12 +58,16 @@
 .modal-footer {
   background: #FE5F55;
   direction: rtl;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .modal-footer > input {
   background: rgba(0,0,0,0);
   color: white;
   border: 0;
   outline: none;
+  font-size: 20px;
 }
 .modal-footer > input:hover {
   background: rgba(0,0,0,.3)

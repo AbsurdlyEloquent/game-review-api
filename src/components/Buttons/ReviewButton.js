@@ -22,7 +22,7 @@ export default class ReviewButton extends React.Component {
   reviewHandler(e) {
     if (e.target.className === 'review-btn') {
       this.setState({ modalActive:'active' })
-    } else if (e.target.className === 'modal-wrapper active') {
+    } else if (e.target.className === 'modal-wrapper active' || e.target.className === "modal-header") {
       this.setState({ modalActive:'' })
     }
   }
