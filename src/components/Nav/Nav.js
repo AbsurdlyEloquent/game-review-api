@@ -12,13 +12,14 @@ class Nav extends React.Component {
     this.navClicker = this.navClicker.bind(this)
   }
   render() {
-    return(
+    return (
       <aside className={`navWrapper ${this.props.navClass}`} onClick={this.navClicker} >
         <nav className={`nav ${this.props.navClass}`}>
           <ul className="navList">
             <LiBtn className={`navButton ${this.props.navClass}`}>Home</LiBtn>
             <LiBtn className={`navButton ${this.props.navClass}`}>Lorem</LiBtn>
             <LiBtn className={`navButton ${this.props.navClass}`}>Ipsum</LiBtn>
+            <LiBtn className={`navButton ${this.props.navClass}`}>Create a Game</LiBtn>
           </ul>
           <Footer className={`navButton ${this.props.navClass}`} />
         </nav>
