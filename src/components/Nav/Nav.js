@@ -19,7 +19,7 @@ class Nav extends React.Component {
             <LiBtn className={`navButton ${this.props.navClass}`}>Home</LiBtn>
             <LiBtn className={`navButton ${this.props.navClass}`}>Lorem</LiBtn>
             <LiBtn className={`navButton ${this.props.navClass}`}>Ipsum</LiBtn>
-            <LiBtn className={`navButton ${this.props.navClass}`}>Create a Game</LiBtn>
+            <LiBtn className={`navButton ${this.props.navClass}`}>Add a Game</LiBtn>
           </ul>
           <Footer className={`navButton ${this.props.navClass}`} />
         </nav>
