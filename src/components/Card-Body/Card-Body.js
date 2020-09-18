@@ -1,10 +1,6 @@
 import React from "react"
 import ReviewButton from "../Buttons/ReviewButton"
-import Mac from "../Tags/Mac"
-import Action from "../Tags/Action"
-import MMORPG from "../Tags/MMORPG"
-import PC from "../Tags/PC"
-import Adventure from "../Tags/Adventure"
+import Tag from "../Tags/Tag"
 
 export default function CardBody() {
     return (
@@ -12,9 +8,9 @@ export default function CardBody() {
             <img className="card-img" src="https://images-na.ssl-images-amazon.com/images/I/51Ro%2BgfSjbL._AC_SX385_.jpg" alt="" />
             <div className="card-body-ul">
                 <ul className="card-ul">
-                    <li className="li-tags">Platform:&nbsp;<Mac />&nbsp;<PC /></li>
-                    <li className="li-tags">Genre:&nbsp;<MMORPG /></li>
-                    <li className="li-tags">Tags:&nbsp;<Action />&nbsp;<Adventure /></li>
+                    <li className="li-tags">Platform:&nbsp;<Tag>Mac</Tag>&nbsp;<Tag>PC</Tag></li>
+                    <li className="li-tags">Genre:&nbsp;<Tag>MMORPG</Tag></li>
+                    <li className="li-tags">Tags:&nbsp;<Tag>Adventure</Tag>&nbsp;<Tag>Action</Tag></li>
                 </ul>
             </div>
             <div className="btn">
