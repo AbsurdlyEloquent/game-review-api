@@ -63,6 +63,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     margin: 10px 0;
 }
 
@@ -157,8 +158,6 @@
     background-color: white;
     font-size: 11pt;
     color: rgba(0, 0, 0, .54);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     display: inline-block;
     height: 0;
     overflow: hidden;
@@ -175,8 +174,8 @@
     padding: 10px;
 }
 
-.content-box > ul > li {
-  color: black;
+.content-box>ul>li {
+    color: black;
 }
 
 .box-close {
@@ -194,21 +193,23 @@
 }
 
 .review-btn {
-  color: white;
-  background: rgba(0, 0, 0, 0);
-  border: none;
-  outline: none;
-  margin-right: 3%;
-  height: 40px;
-  border-radius: 15%;
-  transition: background-color .15s ease
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    margin-right: 3%;
+    height: 40px;
+    border-radius: 15%;
+    transition: background-color .15s ease
 }
+
 .review-btn:hover {
-  cursor: pointer;
-  background-color: rgba(0,0,0,.3)
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .3)
 }
+
 .review-btn:active {
-  background-color: rgba(0,0,0,.5)
+    background-color: rgba(0, 0, 0, .5)
 }
 
 input:checked+.box {
@@ -229,9 +230,10 @@ input:checked+.box .box-close {
 }
 
 input:checked+.box .box-content {
-  height: auto;
-  padding: 30px 20px;
+    height: auto;
+    padding: 30px 20px;
 }
+
 .arrow {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -278,6 +280,7 @@ input:checked+section.box .box-title:before {
     justify-content: flex-end;
     padding: 10px;
 }
+
 .stars {
     display: flex;
     justify-content: flex-end;
@@ -285,19 +288,18 @@ input:checked+section.box .box-title:before {
 }
 
 .noArray {
-  color: white;
-  margin-left: 20px;
+    color: white;
+    margin-left: 20px;
 }
 
 @media (min-width: 768px) {
-  .card-body {
-    flex-direction: row;
-  }
-  .btn {
-    height: 225px;
-  }
+    .card-body {
+        flex-direction: row;
+    }
+
+    .btn {
+        height: 225px;
+    }
 }
 
-@media (min-width: 888px) {
-
-}
+@media (min-width: 888px) {}
