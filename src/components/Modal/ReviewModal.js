@@ -36,6 +36,8 @@ class ReviewModal extends React.Component {
     try {
       let newReview = await axios.post('https://zr-review-api.herokuapp.com/reviews', ratings)
       console.log(newReview)
+      let newGame = await axios.put(`https://zr-review-api.herokuapp.com/games/${this.props.game._id}`, {"$push": { "reviews": newReview.data._id}})
+      console.log(newGame)
       this.setState({ ratings: {} })
     }
     catch (err) {
