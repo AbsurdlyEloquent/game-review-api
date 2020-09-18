@@ -1,0 +1,18 @@
+.review-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FE5F55;
+    border: none;
+    border-radius: 5px;
+    min-width: 120px;
+    padding: 5px;
+    color: white;
+    outline: none;
+}
+.review-btn:hover {
+  background: rgba(254,95,85,0.8);
+}
+.review-btn:active {
+  background: rgba(254,95,85,0.5);
+}

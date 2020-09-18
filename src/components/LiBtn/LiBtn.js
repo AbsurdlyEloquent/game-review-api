@@ -4,7 +4,7 @@ import './LiBtn.css'
 class LiBtn extends React.Component {
   render() {
     return (
-      <li>
+      <li className="LiBtn">
         <button className={this.props.className}>{this.props.children}</button>
       </li>
     )

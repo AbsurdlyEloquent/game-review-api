@@ -2,12 +2,14 @@
   display: flex;
   position: fixed;
   padding: 0 5%;
+  color: white;
   height: 10%;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid;
-  background: #D6D1B1;
+  border-bottom: 2px solid rgb(123,123,123);
+  background: #FE5F55;
+  z-index: 30;
 }
 
 .title {
@@ -16,9 +18,12 @@
 
 
 @media (min-width: 768px) {
-  .hamburger_wrapper, #hamburger {
+
+  .hamburger_wrapper,
+  #hamburger {
     display: none;
   }
+
   .title {
     display: block;
   }

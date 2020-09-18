@@ -1,8 +1,10 @@
 .footer {
   position: relative;
-  height: 30%;
+  height: auto;
+  margin-bottom: 100%;
 }
 .footer > h3 {
+  color: black;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -10,19 +12,23 @@
   white-space: nowrap;
   transition: font-size .3s ease;
 }
-.footer.active > h3 {
+
+.footer.active>h3 {
   font-size: 20px;
 }
+
 .coffee {
   height: 0px;
   margin: 0 3px;
   transition: height .3s ease;
 }
-.active > h3 > .coffee {
+
+.active>h3>.coffee {
   height: 32px;
   width: 32px;
 }
-.footer > ul {
+
+.footer>ul {
   list-style: none;
   font-size: 0px;
   padding: 0;
@@ -30,23 +36,27 @@
   white-space: nowrap;
   transition: font-size .3s ease;
 }
-.footer.active > ul {
+
+.footer.active>ul {
   font-size: 17px;
 }
 .footer > ul > li > a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .footer > ul > li > a:hover {
-  border-bottom: 2px solid black
+  border-bottom: 2px solid white
 }
+
 @media (min-width: 768px) {
-  .footer > h3 {
+  .footer>h3 {
     font-size: 20px
   }
-  .footer > ul {
+
+  .footer>ul {
     font-size: 17px;
   }
+
   .coffee {
     height: 32px;
     width: 32px;

@@ -1,11 +1,11 @@
-.navList > li {
+.LiBtn {
   padding: 5% 0;
   transition: background-color .15s ease;
 }
-.navList > li:hover {
+.LiBtn:hover {
   background: rgba(0,0,0,.3);
 }
-.navList > li:active {
+.LiBtn:active {
   background: rgba(0,0,0,.5)
 }
 .navButton {
