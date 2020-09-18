@@ -12,8 +12,9 @@ class Main extends React.Component {
       return (
         <main className="main">
           { /* JS */
+            // loops through the games, making a Card for each one
             this.props.games.map((item, i)=> {
-              return <CardLight key={i} game={item} />
+              return <CardLight key={i} index={i} game={item} />
             })
           }
         </main>
