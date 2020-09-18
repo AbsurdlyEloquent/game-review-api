@@ -8,6 +8,7 @@ export default function Accordion(props) {
     var returned = (props.reviews.map((item, i)=> {
       return (
         <Review
+          id={item._id}
           key={i}
           difficulty={item.difficulty}
           gameplay={item.gameplay}
