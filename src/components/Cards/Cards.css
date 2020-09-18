@@ -146,12 +146,14 @@
 .box-content {
     width: 100%;
     background-color: white;
-    padding: 30px 20px;
     font-size: 11pt;
     color: rgba(0, 0, 0, .54);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    display: none;
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+    transition: all .15s ease;
 }
 
 .content-box {
@@ -193,6 +195,10 @@ input:checked+.box .box-close {
     display: inline-block;
 }
 
+input:checked+.box .box-content {
+  height: auto;
+  padding: 30px 20px;
+}
 .arrow {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;

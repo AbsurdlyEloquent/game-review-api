@@ -5,11 +5,11 @@ export default function CardTitle() {
         <div className="card-title">
             <h2>Final Fantasy VI</h2>
             <div className="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star-half"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="far fa-star-half"></i>
             </div>
         </div>
     )
