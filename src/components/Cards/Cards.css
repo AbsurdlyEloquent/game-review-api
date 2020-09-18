@@ -173,6 +173,10 @@
     padding: 10px;
 }
 
+.content-box > ul > li {
+  color: black;
+}
+
 .box-close {
     position: absolute;
     height: 64px;
@@ -258,6 +262,7 @@ input:checked+section.box .box-title:before {
 .h2-title {
     border-bottom: 1px solid #FE5F55;
     padding: 10px;
+    color: black;
 }
 
 .btn-review {
@@ -270,6 +275,7 @@ input:checked+section.box .box-title:before {
 }
 
 .btn {
+    height: 225px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
