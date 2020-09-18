@@ -263,6 +263,8 @@ input:checked+section.box .box-title:before {
     border-bottom: 1px solid #FE5F55;
     padding: 10px;
     color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn-review {
