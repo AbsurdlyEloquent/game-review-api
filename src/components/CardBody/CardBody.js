@@ -5,7 +5,7 @@ import Tag from "../Tags/Tag"
 export default function CardBody(props) {
     return (
         <div className="card-body">
-            <img className="card-img" src="https://images-na.ssl-images-amazon.com/images/I/51Ro%2BgfSjbL._AC_SX385_.jpg" alt="" />
+            <img className="card-img" src={props.game.imageURL} alt="" />
             <div className="card-body-ul">
                 <ul className="card-ul">
                     <li className="li-tags">Platform:&nbsp;
