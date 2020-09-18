@@ -30,8 +30,8 @@ export default class Input extends React.Component {
   }
   changeHandler(e) {
     let newState = this.state
-    newState.ratings[`${e.target.name}`] = e.target.value
-    this.setState({newState})
+    newState.ratings[`${e.target.name.toLowerCase()}`] = e.target.value
+    this.setState(newState)
     console.log(newState)
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Modal.css'
 import Input from '../Input/Input'
+const axios = require('axios')
 
 class ReviewModal extends React.Component {
   constructor(props) {
@@ -9,6 +10,7 @@ class ReviewModal extends React.Component {
     this.state = {
       ratings: {}
     }
+    this.submitHandler = this.submitHandler.bind(this)
   }
   render() {
     return (
@@ -24,10 +26,21 @@ class ReviewModal extends React.Component {
               <Input ratings={this.state.ratings} type='Replayability' index={`${this.props.index}-r`} />
             </form>
           </div>
-          <div className='modal-footer'><input type='submit'/></div>
+          <div className='modal-footer'><input onClick={this.submitHandler} type='submit'/></div>
         </div>
       </div>
     )
+  }
+  async submitHandler() {
+    let ratings = this.state.ratings
+    try {
+      let newReview = await axios.post('https://zr-review-api.herokuapp.com/reviews', ratings)
+      console.log(newReview)
+      this.setState({ ratings: {} })
+    }
+    catch (err) {
+      console.error(err)
+    }
   }
 }
 
