@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a82f2e83efabf1e0a92521f33283485e",
+    "revision": "e5e1de1ff7d99f19c6c205acf4f22365",
     "url": "/game-review-api/index.html"
   },
   {
-    "revision": "0b3661924d5d29f311a6",
-    "url": "/game-review-api/static/css/main.cabe589a.chunk.css"
+    "revision": "094b1fa58469f065ce97",
+    "url": "/game-review-api/static/css/main.521b61e5.chunk.css"
   },
   {
-    "revision": "2dca90762b1d71695063",
-    "url": "/game-review-api/static/js/2.f1964c92.chunk.js"
+    "revision": "6d80b941c2edcd0ac1af",
+    "url": "/game-review-api/static/js/2.5b58f3cd.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/game-review-api/static/js/2.f1964c92.chunk.js.LICENSE.txt"
+    "url": "/game-review-api/static/js/2.5b58f3cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0b3661924d5d29f311a6",
-    "url": "/game-review-api/static/js/main.7a9479aa.chunk.js"
+    "revision": "094b1fa58469f065ce97",
+    "url": "/game-review-api/static/js/main.f3953a9c.chunk.js"
   },
   {
     "revision": "d4ee88efe93390c8265a",
