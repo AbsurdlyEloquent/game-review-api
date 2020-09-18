@@ -9,9 +9,9 @@ class Header extends React.Component {
     return (
       <header className="header">
         <Hamburger burgerClass={this.props.burgerClass} burgerHandler={this.props.burgerHandler} />
-        <h1 className="title">Insert cool thing here here</h1>
+        <h1 className="title">Zerg Rush Game Reviews</h1>
         <div className="user">
-          <p>Insert username</p>
+          <p>username</p>
         </div>
       </header>
     )

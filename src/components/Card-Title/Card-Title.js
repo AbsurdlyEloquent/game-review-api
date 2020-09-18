@@ -9,7 +9,7 @@ export default function CardTitle(props) {
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
-                <i className="far fa-star-half"></i>
+                <i className="fas fa-star"></i>
             </div>
         </div>
     )
