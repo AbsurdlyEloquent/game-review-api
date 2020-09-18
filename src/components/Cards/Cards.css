@@ -5,7 +5,7 @@
 .card-light {
     display: flex;
     flex-direction: column;
-    box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px rgba(53, 53, 53, 0.221);
     max-width: 800px;
     border-radius: 10px;
     font-family: 'Kumbh Sans', sans-serif;
@@ -24,6 +24,7 @@
     border-top-right-radius: 10px;
     background-color: #FE5F55;
     padding-left: 20px;
+    padding-right: 10px;
 }
 
 .card-img {
@@ -38,6 +39,8 @@
     flex-direction: column;
     align-items: center;
     background-color: white;
+    height: 100%;
+    color: black;
     box-shadow:
         inset 0px 11px 10px -10px #CCC,
         inset 0px -11px 10px -10px #CCC;
@@ -45,10 +48,12 @@
 
 .card-body-ul {
     width: 100%;
+    height: 100%;
 }
 
 .card-ul {
     list-style-type: none;
+    height: 100%;
 }
 
 .li-tags {
@@ -148,12 +153,14 @@
 .box-content {
     width: 100%;
     background-color: white;
-    padding: 30px 20px;
     font-size: 11pt;
     color: rgba(0, 0, 0, .54);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    display: none;
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+    transition: all .15s ease;
 }
 
 .content-box {
@@ -219,6 +226,10 @@ input:checked+.box .box-close {
     display: inline-block;
 }
 
+input:checked+.box .box-content {
+  height: auto;
+  padding: 30px 20px;
+}
 .arrow {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -247,4 +258,26 @@ input:checked+section.box .box-title:before {
 .h2-title {
     border-bottom: 1px solid #FE5F55;
     padding: 10px;
+}
+
+.btn-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.stars {
+    display: flex;
+    justify-content: flex-end;
+    color: gold;
 }

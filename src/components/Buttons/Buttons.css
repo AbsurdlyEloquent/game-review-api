@@ -1,0 +1,10 @@
+.review-btn {
+    display: flex;
+    justify-content: center;
+    background-color: #FE5F55;
+    border: none;
+    border-radius: 5px;
+    min-width: 120px;
+    padding: 5px;
+    color: white;
+}
