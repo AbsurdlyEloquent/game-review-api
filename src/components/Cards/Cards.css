@@ -284,6 +284,11 @@ input:checked+section.box .box-title:before {
     color: gold;
 }
 
+.noArray {
+  color: white;
+  margin-left: 20px;
+}
+
 @media (min-width: 768px) {
   .card-body {
     flex-direction: row;
