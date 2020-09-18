@@ -2,23 +2,26 @@
   position: fixed;
   height: 100%;
   width: 100%;
-  background: rgba(0,0,0,.3);
+  background: rgba(0, 0, 0, .3);
   top: 0;
   left: 0;
   z-index: 150;
   display: none;
 }
+
 .modal-wrapper.active {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .modal {
   position: relative;
   width: 500px;
   background: white;
   border-radius: 10px;
 }
+
 .modal-header {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -27,34 +30,42 @@
   font-weight: bold;
   background: #FE5F55;
   color: white;
+  cursor: pointer;
 }
+
 .form {
- display: flex;
- flex-direction: column;
- align-items: center;
- direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  direction: rtl;
 }
-.form > h5 {
+
+.form>h5 {
   font-size: 20px;
 }
-.radio-container > input {
-  display:none;
+
+.radio-container>input {
+  display: none;
 }
-.radio-container > label:hover:before,
-.radio-container > label:hover ~ label:before {
+
+.radio-container>label:hover:before,
+.radio-container>label:hover~label:before {
   cursor: pointer;
   content: "\2605";
   position: absolute;
 }
-.radio-container > input:checked ~ label:before {
+
+.radio-container>input:checked~label:before {
   cursor: pointer;
   content: "\2605";
   position: absolute;
 }
-.radio-container > label {
+
+.radio-container>label {
   color: gold;
   font-size: 30px;
 }
+
 .modal-footer {
   background: #FE5F55;
   direction: rtl;
@@ -62,16 +73,19 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.modal-footer > input {
-  background: rgba(0,0,0,0);
+
+.modal-footer>input {
+  background: rgba(0, 0, 0, 0);
   color: white;
   border: 0;
   outline: none;
   font-size: 20px;
 }
-.modal-footer > input:hover {
-  background: rgba(0,0,0,.3)
+
+.modal-footer>input:hover {
+  background: rgba(0, 0, 0, .3)
 }
-.modal-footer > input:active {
-  background: rgba(0,0,0,.5)
+
+.modal-footer>input:active {
+  background: rgba(0, 0, 0, .5)
 }
