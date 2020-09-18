@@ -294,6 +294,10 @@ input:checked+section.box .box-title:before {
     margin-left: 20px;
 }
 
+.delete:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
     .card-body {
         flex-direction: row;
@@ -303,5 +307,3 @@ input:checked+section.box .box-title:before {
         height: 225px;
     }
 }
-
-@media (min-width: 888px) {}
