@@ -26,7 +26,7 @@ export default function CardBody(props) {
                 </ul>
             </div>
             <div className="btn">
-                <ReviewButton game={props.game}/>
+                <ReviewButton game={props.game} index={props.index} />
             </div>
         </div>
     )

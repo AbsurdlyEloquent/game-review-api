@@ -8,7 +8,7 @@ export default function CardLight(props) {
     return (
         <div className="card-light">
             <CardTitle>{props.game.name}</CardTitle>
-            <CardBody game={props.game} platforms={props.game.platforms} genre={props.game.genre} tags={props.game.tags}/>
+            <CardBody game={props.game} platforms={props.game.platforms} genre={props.game.genre} tags={props.game.tags} index={props.index} />
             <Accordion reviews={props.game.reviews} index={props.index} />
         </div>
     )

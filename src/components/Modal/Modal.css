@@ -15,7 +15,26 @@
 }
 .modal {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  padding: 20px;
   background: white;
+}
+.form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ direction: rtl;
+}
+.radio-container > input {
+  display:none;
+}
+.radio-container > label:hover:before,
+.radio-container > label:hover ~ label:before {
+  cursor: pointer;
+  content: "\2605";
+  position: absolute;
+}
+.radio-container > label {
+  color: gold;
+  font-size: 30px;
 }
