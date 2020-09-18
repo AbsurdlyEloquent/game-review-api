@@ -32,13 +32,8 @@ class App extends React.Component {
       <div className="App">
         <Header navActive={this.state.navActive} navClass={this.state.navClass} burgerClass={this.state.burgerClass} burgerHandler={this.burgerHandler} />
         <Nav navActive={this.state.navActive} navClass={this.state.navClass} burgerHandler={this.burgerHandler} />
-<<<<<<< HEAD
-        <CardLight />
-      </div >
-=======
         <Main games={this.state.games} />
       </div>
->>>>>>> master
     )
   }
   burgerHandler = function () {
