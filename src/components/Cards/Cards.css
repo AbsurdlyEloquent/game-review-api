@@ -3,6 +3,7 @@
 } */
 
 .card-light {
+    position: relative;
     display: flex;
     flex-direction: column;
     box-shadow: 3px 3px 5px 6px rgba(53, 53, 53, 0.221);
@@ -11,7 +12,6 @@
     font-family: 'Kumbh Sans', sans-serif;
     background: white;
     width: 75%;
-    z-index: 10;
     margin: 10px 0;
 }
 

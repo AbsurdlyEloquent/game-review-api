@@ -21,7 +21,6 @@ class App extends React.Component {
     try {
       let response = await axios.get('https://zr-review-api.herokuapp.com/games')
       this.setState({ games: response.data })
-      console.log(this.state)
     }
     catch (err) {
       console.error(err)
