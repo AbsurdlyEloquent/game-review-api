@@ -20,7 +20,7 @@ export default function Accordion(props) {
     }))
   } else {
     returned = (
-      <h3 className="noArray">There's nothing here...</h3>
+      <h3 className="noArray">There's nothing here...🥺</h3>
     )
   }
     return (
