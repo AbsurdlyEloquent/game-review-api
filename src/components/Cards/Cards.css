@@ -125,7 +125,6 @@
     display: flex;
     flex-direction: column;
     background: #FE5F55;
-    z-index: 100;
     cursor: initial;
     box-shadow: 0 -1px 0 #e5e5e5, 0 0 2px -2px rgba(0, 0, 0, .12), 0 2px 4px -4px rgba(0, 0, 0, .24);
 }
@@ -263,6 +262,8 @@ input:checked+section.box .box-title:before {
     border-bottom: 1px solid #FE5F55;
     padding: 10px;
     color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn-review {
@@ -292,6 +293,10 @@ input:checked+section.box .box-title:before {
     margin-left: 20px;
 }
 
+.delete:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
     .card-body {
         flex-direction: row;
@@ -301,5 +306,3 @@ input:checked+section.box .box-title:before {
         height: 225px;
     }
 }
-
-@media (min-width: 888px) {}
