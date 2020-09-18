@@ -1,17 +1,10 @@
 import React from 'react'
+import './Modal.css'
 
 class ReviewModal extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      game: this.props.game,
-      active: this.props.active
-    }
-  }
   render() {
     return (
-      <div className={`modal-wrapper ${this.state.active}`}>
+      <div className={`modal-wrapper ${this.props.active}`}>
         <div className='modal'></div>
       </div>
     )
