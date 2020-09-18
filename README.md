@@ -10,6 +10,7 @@ You can find the deployed site on Github Pages [here](https://absurdlyeloquent.g
 
 - [Game Review Api](#zerg-rush-game-reviews)
   - [Technologies Used](#technologies-used)
+  - [Dependencies](#dependencies)
 
 
 ## Technologies Used
@@ -37,3 +38,5 @@ Running `npm start` will start a local development server in your browser
 The games are displayed by cards, each card containing one game. The card can expand to display reviews of each game.
 
 To submit a review, simply click the `Write a Review` button on a card, choose you ratings and hit `submit`, and your review will be sent to the database.
+
+To delete a review, press the trash icon to the right of the review.
