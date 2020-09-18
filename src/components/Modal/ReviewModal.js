@@ -11,7 +11,7 @@ class ReviewModal extends React.Component {
   }
   render() {
     return (
-      <div className='modal-wrapper'>
+      <div className={`modal-wrapper ${this.state.active}`}>
         <div className='modal'></div>
       </div>
     )
