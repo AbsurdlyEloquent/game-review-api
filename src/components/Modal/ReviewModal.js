@@ -7,7 +7,7 @@ class ReviewModal extends React.Component {
     return (
       <div className={`modal-wrapper ${this.props.active}`} onClick={this.props.reviewHandler}>
         <div className='modal'>
-          <div className='modal-header'></div>
+          <div className='modal-header'>&times;</div>
           <div className='modal-body'>
             <form>
               <Input type='Overall' index={`${this.props.index}-o`} />
@@ -17,7 +17,7 @@ class ReviewModal extends React.Component {
               <Input type='Replayability' index={`${this.props.index}-r`} />
             </form>
           </div>
-          <div className='modal-footer'></div>
+          <div className='modal-footer'><input type='submit'/></div>
         </div>
       </div>
     )

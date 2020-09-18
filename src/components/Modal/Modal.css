@@ -16,14 +16,25 @@
 .modal {
   position: relative;
   width: 500px;
-  padding: 20px;
   background: white;
+  border-radius: 10px;
+}
+.modal-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  background: #FE5F55;
 }
 .form {
  display: flex;
  flex-direction: column;
  align-items: center;
  direction: rtl;
+}
+.form > h5 {
+  font-size: 20px;
 }
 .radio-container > input {
   display:none;
@@ -34,7 +45,28 @@
   content: "\2605";
   position: absolute;
 }
+.radio-container > input:checked ~ label:before {
+  cursor: pointer;
+  content: "\2605";
+  position: absolute;
+}
 .radio-container > label {
   color: gold;
   font-size: 30px;
+}
+.modal-footer {
+  background: #FE5F55;
+  direction: rtl;
+}
+.modal-footer > input {
+  background: rgba(0,0,0,0);
+  color: white;
+  border: 0;
+  outline: none;
+}
+.modal-footer > input:hover {
+  background: rgba(0,0,0,.3)
+}
+.modal-footer > input:active {
+  background: rgba(0,0,0,.5)
 }
