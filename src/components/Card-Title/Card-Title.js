@@ -1,9 +1,9 @@
 import React from "react"
 
-export default function CardTitle() {
+export default function CardTitle(props) {
     return (
         <div className="card-title">
-            <h2>Final Fantasy VI</h2>
+            <h2>{props.children}</h2>
             <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
