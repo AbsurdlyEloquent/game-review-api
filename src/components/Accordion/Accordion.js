@@ -13,7 +13,8 @@ export default function Accordion(props) {
           gameplay={item.gameplay}
           graphics={item.graphics}
           overall={item.overall}
-          replayability={item.replayability} />
+          replayability={item.replayability}
+          comments={item.comments} />
       )
     }))
   } else {
