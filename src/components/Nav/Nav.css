@@ -1,4 +1,3 @@
-
 .navWrapper {
   opacity: 0;
   position: fixed;
@@ -39,6 +38,7 @@
 .navButton {
   color: white;
 }
+
 .navButton:hover {
   cursor: pointer;
 }
