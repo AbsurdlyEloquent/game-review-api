@@ -7,7 +7,7 @@ import './Main.css'
 class Main extends React.Component {
   render() {
     if (!this.props.games) {
-      return <main><h1>Please Wait...</h1></main>
+      return <main className="main"><h1>Please Wait...</h1></main>
     } else {
       return (
         <main className="main">
