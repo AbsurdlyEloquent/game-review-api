@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/game-review-api/static/css/main.46232b6f.chunk.css",
-    "main.js": "/game-review-api/static/js/main.736b24a3.chunk.js",
-    "main.js.map": "/game-review-api/static/js/main.736b24a3.chunk.js.map",
+    "main.js": "/game-review-api/static/js/main.bd9a8b89.chunk.js",
+    "main.js.map": "/game-review-api/static/js/main.bd9a8b89.chunk.js.map",
     "runtime-main.js": "/game-review-api/static/js/runtime-main.4e64b7a4.js",
     "runtime-main.js.map": "/game-review-api/static/js/runtime-main.4e64b7a4.js.map",
     "static/js/2.5b58f3cd.chunk.js": "/game-review-api/static/js/2.5b58f3cd.chunk.js",
     "static/js/2.5b58f3cd.chunk.js.map": "/game-review-api/static/js/2.5b58f3cd.chunk.js.map",
     "index.html": "/game-review-api/index.html",
-    "precache-manifest.567b7228371031898abd41dc4d55a703.js": "/game-review-api/precache-manifest.567b7228371031898abd41dc4d55a703.js",
+    "precache-manifest.a3f967d97ae79c0a0fcd1bd717b0b859.js": "/game-review-api/precache-manifest.a3f967d97ae79c0a0fcd1bd717b0b859.js",
     "service-worker.js": "/game-review-api/service-worker.js",
     "static/css/main.46232b6f.chunk.css.map": "/game-review-api/static/css/main.46232b6f.chunk.css.map",
     "static/js/2.5b58f3cd.chunk.js.LICENSE.txt": "/game-review-api/static/js/2.5b58f3cd.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.4e64b7a4.js",
     "static/js/2.5b58f3cd.chunk.js",
     "static/css/main.46232b6f.chunk.css",
-    "static/js/main.736b24a3.chunk.js"
+    "static/js/main.bd9a8b89.chunk.js"
   ]
 }
